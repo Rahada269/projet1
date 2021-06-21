@@ -1,0 +1,13 @@
+A chercher :
+
+*Bootstrade 
+*Display :inline et inline-block
+*position :relative,absolute,fixed et static
+
+-freeImage /pexel /unsplash
+-cdor.adobe / caval /flatuicdors
+-fontauveme /fa-icone /freepik
+
+**Boostrap a telecharger
+a telecharger : Github
+

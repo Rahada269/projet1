@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf8">
+			
+			<style>
+				p{
+					color:green;
+					font-size:40px;
+					text-transform:uppercase;
+				}
+				#p1{
+					color:red;
+				}
+				#p2{
+					color:white;
+					background-color:black;
+				}
+				.p3{
+					color:orange;
+				}
+				.p4{
+					color:black;
+					line-height:60px;
+					border:10px solid brown; 
+					width:600px;
+					height:400px;
+					border-radius:20px; 
+					/*padding:80px;*/
+					padding:60px 10px 5px 20px;
+					margin:60px 10px 5px 20px;
+					overflow:scroll;
+					font-family:cursive;
+					
+				}
+				#list{
+					list-style:circle;
+				}
+			
+			
+			</style>
+	
+		</head>
+	
+		<body>
+			<!--css inline-->
+			
+			<p style="color:yellow;background-color:green;word-spacing:40px;text-transform:lowercase">INSTITUT SUPERIEUR D'INFORMATIQUE</p><!--css inline-->
+			<p style="color:red;font-size:40px;letter-spacing:20px;font-weight:900;font-style:italic">ISI</p>
+			<!--on a 3 types de css:inline(à l'interieur de la balise),interne et externe-->
+			<!--font-weight:permet d'augmenter la gracité du texte-->
+			<!--background-color:permet de colorier l'arrière plan par defaut c'est blanc -->
+			<!--text-transform:"lowercase(miniscule),uppercase(majuscule):permet de mettre le texte en miniscule ou majuscule -->
+			<!--text-align:"..." permet d'aligner le texte-->
+			
+			<!--css interne-->
+			<!--on cree la balise <style>...</stylle> au niveau de l'en tete .
+			class(.) et id(#). les id on les utilisent sur une seule  balise et les classes on  peut les utilisés sur plusieurs balises-->
+			
+			<p id="p1">Rahada Halidi </p>
+			
+			<p id="p2">Mamadou </p>
+			
+			<p class="p3">lo</p>
+			
+			<p class="p4">L’ISI, est un établissement d’enseignement supérieur dont le projet pédagogique permet de transmettre la pluralité des 
+				savoirs et les clés de lecture d’un monde fluide pour les futurs cadres.
+				Notre mission est de bien former les futurs leaders, mais aussi, d’accompagner les étudiants issus de l’ensemble de la 
+				population afin que chacun d’eux  puisse avoir la chance de devenir un manager. 
+			</p>
+			<!--border: taille type color même chose que border-width,border-type,border-color-->
+			<!--permet d'arrondir les bordures-->
+			<!--permet de mettre de l'espace entre la bordure et le contenu(texte)-->
+			<!-- padding:en haut ,à droite,en bas,à gauche-->
+			<!--overflow:hidden ,permet de cacher le taxte qui depasse / scroll ,permet de scroller le texte-->
+			
+			<ul id="list">
+				<li>Algo</li>
+				<li>Math</li>
+			</ul>
+			
+			
+		</body>
+	
+		<footer>
+	
+	
+		</footer>
+
+
+	</html>
